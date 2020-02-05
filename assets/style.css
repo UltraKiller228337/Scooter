@@ -1,0 +1,110 @@
+@font-face {
+	font-family: "Warsaw";
+	src: url("./fonts/Warsaw_Regular.ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Warsaw";
+	src: url("./fonts/Warsaw_Bold.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Warsaw";
+	src: url("./fonts/Warsaw_Light.ttf");
+	font-weight: 100;
+}
+
+body, h1, h2, h4, ol, ul{
+	margin: 0;
+	font-family:"Warsaw";
+	font-size: 80px;
+	text-align: center;
+	color: white;
+}
+
+img{
+	height: 400px;
+	width: 400px;
+	animation-play-state: paused;
+}
+
+a{
+	font-family:"Warsaw";
+	margin-right: 15px;
+	line-height: 60px;
+	font-weight: 900;
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+	margin: 40px;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	letter-spacing:15px;
+}
+
+h3{
+	font-size: 40px;
+	padding: 0 10%;
+}
+
+
+
+.table-cell {
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100vw;
+	text-align: center;
+}
+
+.square{
+	border-radius: 50%;
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	transition: .6s
+}
+.square:hover {
+	border-radius: 10%;
+	height: 500px;
+	width: 500px;
+}
+
+.text-square{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	transition: .6s
+}
+.text-square:hover {
+	height: 100px;
+	width: 400px;
+}
+
+.gif-square{
+	height: 300px;
+	width: 300px;
+	transition: .6s
+}
+
+.gif-square:hover{
+	height: 400px;
+	width: 400px;
+	animation-play-state: running;
+}
+
+.hoverlord{
+	transition: .6s
+}
+
+.hoverlord:hover{
+	font-size: 100px;
+
+}
